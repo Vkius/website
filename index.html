@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Online</title>
+  <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+  <h1>Calculadora Online</h1>
+  <section id="calculadora-basica">
+    <h2>Calculadora Básica</h2>
+    <form action="#">
+      <input type="number" id="input1" placeholder="Primer número">
+      <input type="number" id="input2" placeholder="Segundo número">
+      <button id="suma">+</button>
+      <button id="resta">-</button>
+      <button id="multiplicacion">*</button>
+      <button id="division">/</button>
+      <span id="resultado"></span>
+    </form>
+  </section>
+    <section id="calculadora-avanzada">
+    <h2>Calculadora Avanzada</h2>
+    <form action="#">
+      <input type="text" id="input-avanzada" placeholder="introduce operación ej. 1+2.5">
+      <button id="calcular">Calcular</button>
+      <span id="resultado-avanzada"></span>
+    </form>
+  </section>
+  <script src="./public/script.js"></script>
+</body>
+</html>

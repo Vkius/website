@@ -1,0 +1,39 @@
+/* Estilos básicos */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#resultado, #resultado
